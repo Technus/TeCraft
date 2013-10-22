@@ -444,8 +444,8 @@ elseif bcheck(1,4 ,5 ,4 ,3,xPos,yPos,1) then eng.move(1,false,false) sleep(delay
 elseif bcheck(1,18,15,4 ,3,xPos,yPos,1) then eng.move(0,false,false) sleep(delay1) shell.run("startup")
 elseif bcheck(1,11,5 ,4 ,3,xPos,yPos,1) then eng.move(2,false,false) sleep(delay1) shell.run("startup")
 elseif bcheck(1,11,15,4 ,3,xPos,yPos,1) then eng.move(3,false,false) sleep(delay1) shell.run("startup")
-elseif bcheck(1,4 ,10,4 ,3,xPos,yPos,1) then eng.move(5,false,false) sleep(delay1) shell.run("startup")
-elseif bcheck(1,18,10,4 ,3,xPos,yPos,1) then eng.move(4,false,false) sleep(delay1) shell.run("startup")
+elseif bcheck(1,4 ,10,4 ,3,xPos,yPos,1) then eng.move(4,false,false) sleep(delay1) shell.run("startup")
+elseif bcheck(1,18,10,4 ,3,xPos,yPos,1) then eng.move(5,false,false) sleep(delay1) shell.run("startup")
 elseif bcheck(1,31,5 ,18,3,xPos,yPos,0) then --transit
 blockmon()
 bt(1)
